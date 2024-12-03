@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport Finder</title>
+    <link rel="stylesheet" href="sport.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sport Finder Quiz</h1>
+        <p>Answer a few questions to find your perfect sport!</p>
+        <form id="quizForm">
+            <div class="question">
+                <label for="age">1. What's your age?</label>
+                <input type="number" id="age" name="age" required placeholder="Enter your age">
+            </div>
+
+            <div class="question">
+                <label for="fitness">2. What's your fitness level?</label>
+                <select id="fitness" name="fitness">
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <label for="type">3. What type of sport do you prefer?</label>
+                <select id="type" name="type">
+                    <option value="outdoor">Outdoor</option>
+                    <option value="indoor">Indoor</option>
+                    <option value="team">Team Sport</option>
+                    <option value="solo">Solo Activity</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <label for="time">4. How much time can you dedicate weekly?</label>
+                <select id="time" name="time">
+                    <option value="low">Less than 3 hours</option>
+                    <option value="moderate">3–6 hours</option>
+                    <option value="high">More than 6 hours</option>
+                </select>
+            </div>
+
+            <button type="submit">Find My Sport</button>
+        </form>
+        <div id="recommendation"></div>
+    </div>
+    <script src="sport.js"></script>
+</body>
+</html>

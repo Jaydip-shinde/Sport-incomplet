@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Soccer",
+        "type": "team",
+        "fitness": "high",
+        "time": "high",
+        "description": "A fast-paced team sport loved worldwide."
+    },
+    {
+        "name": "Basketball",
+        "type": "team",
+        "fitness": "high",
+        "time": "high",
+        "description": "A dynamic game requiring skill and stamina."
+    },
+    {
+        "name": "Tennis",
+        "type": "solo",
+        "fitness": "high",
+        "time": "moderate",
+        "description": "A fast-paced sport testing agility and skill."
+    },
+    {
+        "name": "Yoga",
+        "type": "indoor",
+        "fitness": "low",
+        "time": "low",
+        "description": "Ideal for relaxation and flexibility."
+    }
+]
